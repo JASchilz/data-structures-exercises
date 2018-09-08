@@ -5,7 +5,7 @@
 
 struct Item_t {
     int key;
-    void* value;
+    void* payload;
 };
 typedef struct Item_t Item_t;
 
