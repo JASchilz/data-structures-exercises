@@ -14,11 +14,13 @@ typedef void* ItemPayload_t;
 /**
  * Items shall be of type struct.
  */
+struct Item_t;
 typedef struct Item_t Item_t;
 
 /**
  * Heaps shall be of type struct.
  */
+struct Heap_t;
 typedef struct Heap_t Heap_t;
 
 /**
