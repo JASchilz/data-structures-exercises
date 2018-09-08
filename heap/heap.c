@@ -59,9 +59,3 @@ Item_t* PeekHeap(Heap_t* heap)
     return NULL;
 }
 
-int main()
-{
-    printf("Hello world!");
-
-    return 0;
-}
