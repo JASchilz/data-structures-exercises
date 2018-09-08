@@ -26,7 +26,12 @@ Item_t* AllocateItem(int key,
                      ItemPayload_t payload,
                      ItemPayloadFreeFnPtr payload_free_function)
 {
-    return NULL;
+    Item_t* item = (Item_t *)malloc(sizeof(Item_t));
+
+    item->key = key;
+    item->payload = payload;
+
+    return item;
 }
 
 int FreeItem(Item_t* item)
